@@ -1,8 +1,7 @@
 language: objective-c
 
-before_install:
-  - brew update
-  - if brew outdated | grep -qx xctool; then brew upgrade xctool; fi
-
+install:
+    - ./scripts/install_swiftlint.sh
 script:
+  - swiftlint
   - xctool -project TravisCITest.xcodeproj -scheme TravisCITest -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
