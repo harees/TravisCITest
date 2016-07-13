@@ -11,7 +11,6 @@
 		00FAA8C01D33803F000C1A5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAA8BF1D33803F000C1A5E /* ViewController.swift */; };
 		00FAA8C31D33803F000C1A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FAA8C11D33803F000C1A5E /* Main.storyboard */; };
 		00FAA8C51D33803F000C1A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00FAA8C41D33803F000C1A5E /* Assets.xcassets */; };
-		00FAA8C81D33803F000C1A5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00FAA8C61D33803F000C1A5E /* LaunchScreen.storyboard */; };
 		00FAA8D31D33803F000C1A5E /* TravisCITestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00FAA8D21D33803F000C1A5E /* TravisCITestTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,7 +30,6 @@
 		00FAA8BF1D33803F000C1A5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		00FAA8C21D33803F000C1A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		00FAA8C41D33803F000C1A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		00FAA8C71D33803F000C1A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00FAA8C91D33803F000C1A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00FAA8CE1D33803F000C1A5E /* TravisCITestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TravisCITestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00FAA8D21D33803F000C1A5E /* TravisCITestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravisCITestTests.swift; sourceTree = "<group>"; };
@@ -81,7 +79,6 @@
 				00FAA8BF1D33803F000C1A5E /* ViewController.swift */,
 				00FAA8C11D33803F000C1A5E /* Main.storyboard */,
 				00FAA8C41D33803F000C1A5E /* Assets.xcassets */,
-				00FAA8C61D33803F000C1A5E /* LaunchScreen.storyboard */,
 				00FAA8C91D33803F000C1A5E /* Info.plist */,
 			);
 			path = TravisCITest;
@@ -177,7 +174,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00FAA8C81D33803F000C1A5E /* LaunchScreen.storyboard in Resources */,
 				00FAA8C51D33803F000C1A5E /* Assets.xcassets in Resources */,
 				00FAA8C31D33803F000C1A5E /* Main.storyboard in Resources */,
 			);
@@ -227,14 +223,6 @@
 				00FAA8C21D33803F000C1A5E /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		00FAA8C61D33803F000C1A5E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				00FAA8C71D33803F000C1A5E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -390,6 +378,7 @@
 				00FAA8D91D33803F000C1A5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00FAA8DA1D33803F000C1A5E /* Build configuration list for PBXNativeTarget "TravisCITestTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +387,7 @@
 				00FAA8DC1D33803F000C1A5E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
