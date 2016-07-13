@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import TravisCITest
+import TravisCITest
 
 class TravisCITestTests: XCTestCase {
     
