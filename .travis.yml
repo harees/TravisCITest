@@ -4,4 +4,4 @@ install:
     - ./scripts/install_swiftlint.sh
 script:
   - swiftlint
-  - xctool build test -project TravisCITest.xcodeproj -scheme TravisCITest -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+  - xctool build test -project TravisCITest.xcodeproj -scheme TravisCITest -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO
